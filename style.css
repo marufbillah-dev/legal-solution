@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --primary-color: #b68c5a;
+  --dark-01: #111111;
+  --dark-02: #414040;
+  --dark-03: #707070;
+  --dark-04: #a0a0a0;
+  --dark-05: #cfcfcf;
+  --dark-06: #e7e7e7;
+  --dark-07: #f3f3f3;
+}
+
+.eb-garamond-font {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+}
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+}
