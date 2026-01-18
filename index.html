@@ -25,8 +25,75 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header class="poppins-font">
+      <nav>
+        <div
+          class="nav-container max-w-[1170px] mx-auto my-0 py-12.5 flex justify-between items-center"
+        >
+          <a href="" class="logo">
+            <img class="" src="images/logo-nav.png" alt="" />
+          </a>
+          <div class="nav-menu">
+            <ul
+              class="menu-container flex gap-7.5 items-center **:whitespace-nowrap **:text-[var(--dark-03)] **:hover:text-[var(--primary)] duration-300 ease-in-out"
+            >
+              <li class="menu-item"><a href="">Home</a></li>
+              <li class="menu-item">
+                <a href="">Services <i class="fa-solid fa-angle-right"></i></a>
+              </li>
+              <li class="menu-item">
+                <a href="">Cases <i class="fa-solid fa-angle-right"></i></a>
+              </li>
+              <li class="menu-item">
+                <a href="">Blog <i class="fa-solid fa-angle-right"></i></a>
+              </li>
+              <li class="menu-item">
+                <a href=""
+                  >Contact Us <i class="fa-solid fa-angle-right"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="text-white bg-[var(--primary)] font-semibold text-lg py-5 px-7.5 rounded-lg whitespace-nowrap cursor-pointer hover:bg-yellow-600 duration-300 ease-in-out hover:-translate-y-0.5"
+          >
+            Free Consultation
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div
+          class="hero-container max-w-[1170px] mx-auto my-0 rounded-lg bg-center bg-contain bg-no-repeat py-28 text-white"
+        >
+          <div class="hero-contents max-w-[692px] my-0 mx-auto">
+            <h1
+              class="hero-title eb-garamond-font text-7xl font-extrabold text-center mb-6"
+            >
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="hero-desc text-center poppins-font leading-[26px] mb-8">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <div class="hero-search w-full flex gap-6 justify-center">
+              <input
+                class="p-5 rounded-lg poppins-font w-[500px] bg-white text-[var(--dark-03)] focus:outline-[var(--primary)]"
+                type="text"
+                placeholder="Search Your Services"
+              />
+              <button
+                class="text-white bg-[var(--primary)] font-semibold text-lg py-5 px-10 rounded-lg whitespace-nowrap cursor-pointer hover:bg-yellow-600 duration-300 ease-in-out hover:-translate-y-0.5"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

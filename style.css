@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-@theme {
-  --primary-color: #b68c5a;
+:root {
+  --primary: #b68c5a;
   --dark-01: #111111;
   --dark-02: #414040;
   --dark-03: #707070;
@@ -18,4 +18,8 @@
 .poppins-font {
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
+}
+
+.hero-container {
+  background: url(images/banner.png);
 }
